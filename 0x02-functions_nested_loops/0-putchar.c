@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /*we would use the manin to input variables
  * for would be used to assign the parameters
@@ -6,10 +6,13 @@
  * return 0
  */
 
-int main(void) {
+int main(void) 
+{
+
 	int i;
-	for(i=o, i<5, i++) {
+	for(i=o, i<5, i++) 
+	{
 		_putcher("%d\n" , i);
 	}
-	return 0;
+	return (0);
 }
